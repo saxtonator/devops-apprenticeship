@@ -6,7 +6,8 @@ mkdir learn-terraform-docker-container
 :: Navigate into the working directory.
 cd learn-terraform-docker-container
 :: In the working directory, create or download the file called main.tf with the terraform configuration. You can copy this configuration from https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli 
-wget main.tf
+touch main.tf
+echo 'terraform {  required_providers {    docker = {      source  = "kreuzwerker/docker"      version = "~> 3.0.1"    }  }}provider "docker" {}resource "docker_image" "nginx" {  name         = "nginx"  keep_locally = false}resource "docker_container" "nginx" {  image = docker_image.nginx.image_id  name  = "tutorial"  ports {    internal = 80    external = 8000  }}' >> main.tf
 :: Initialize the project, which downloads a plugin called a provider that lets Terraform interact with Docker.
 terraform init
 :: Provision the NGINX server container with apply. When Terraform asks you to confirm type yes and press ENTER.
