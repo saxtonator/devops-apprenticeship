@@ -22,9 +22,9 @@ Contains the definition of access_key and secret_key variables defined in variab
 Use a code editor like Visual Studio Code to write and edit your files 
 
 # Creating your EC2 instance using your Terraform configuration files
-terraform init - command downloads and installs plugins for providers used within the configuration. In our case it is AWS /
-terraform plan - command is used to see the changes that will take place on the infrastructure. / terraform apply - command will create the resources on the AWS mentioned in the main.tf file. It will be prompted to provide our input to create the resources.
-terraform destroy - will terminate the resources defined in main.tf. 
+terraform init - command downloads and installs plugins for providers used within the configuration. In our case it is AWS \
+terraform plan - command is used to see the changes that will take place on the infrastructure. \ terraform apply - command will create the resources on the AWS mentioned in the main.tf file. It will be prompted to provide our input to create the resources. \
+terraform destroy - will terminate the resources defined in main.tf. \
 
 
 
