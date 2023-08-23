@@ -1,4 +1,4 @@
-# How To Create An EC2 Instance On AWS Using Terraform
+# How to create an EC2 instance on AWS using Terraform
 
 Before you start, please make sure you have completed the other Docker and Terraform activities so you're familar with the basics of Terraform and AWS EC2.
 
