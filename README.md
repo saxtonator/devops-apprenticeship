@@ -9,4 +9,4 @@ Basic understanding of Terraform.\
 Terraform installed on our system.\
 AWS Account (Create if you don’t have one).\
 access_key & secret_key of an AWS IAM User.\
-Run terraform-aws-ec2.sh\
+Run terraform-aws-ec2.sh \
