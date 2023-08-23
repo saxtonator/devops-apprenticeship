@@ -7,7 +7,7 @@ Basic understanding of Terraform.\
 Terraform installed on our system.\
 AWS Account (Create if you don’t have one).\
 access_key & secret_key of an AWS IAM User.\
-Run create-folder.sh
+Run create-folder.sh \
 Pull or copy main.tf, variable.tf and terraform.tfvars
 
 # main.tf 
