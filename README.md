@@ -8,7 +8,7 @@ Terraform installed on our system.\
 AWS Account (Create if you don’t have one).\
 access_key & secret_key of an AWS IAM User.\
 Run create-folder.sh \
-Pull or copy main.tf, variable.tf and terraform.tfvars \
+Pull or copy main.tf, variable.tf and terraform.tfvars 
 
 # main.tf 
 Is responsible to create an EC2 on AWS. This main.tf will read values of variables from variables.tf and terraform.tfvars.
